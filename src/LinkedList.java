@@ -23,7 +23,11 @@ public class LinkedList {
         for (int i = 0; i < index; i++){
             current = current.getNextPtr();
         }
-        return current;
+        return current.get();
+    }
+
+    public int getCount(){
+        return count;
     }
 
     public String toString(){

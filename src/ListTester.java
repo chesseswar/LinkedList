@@ -2,9 +2,6 @@
  * Created by 216430 on 9/27/2017.
  */
 
-//this comment is dope
-//test comment #2
-
 import java.util.*;
 import java.io.*;
 public class ListTester {
@@ -41,7 +38,8 @@ public class ListTester {
             }
             movies.add(new Movie(year, title, actorList, directorsList));
         }
-        System.out.println(movies);
+
+
         /*
         PART 4/5/6
         movies.add(new Movie(1990, "Movie 1", list, list));
